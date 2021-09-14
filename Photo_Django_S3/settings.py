@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ldo1#v!%vet)d79xrg7px)sn30yp1245#!=7sc4puwidsd*5!z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['diva-picshare.herokuapp.com','127.0.0.1']
 
 
 # Application definition

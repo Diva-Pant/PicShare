@@ -1,0 +1,1 @@
+web: gunicorn Photo_Django_S3.wsgi --log-file -
